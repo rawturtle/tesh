@@ -1,0 +1,164 @@
+body {
+  	padding-top: 50px;
+	color: black !important;
+	font-family: "Cormorant Garamond", Serif;
+	font-size: 150% !important;
+}
+p {
+	color: black !important;
+	font-family: "Cormorant Garamond", Serif;
+	font-size: 150% !important;
+	text-align: justify;
+}
+.dropdown-toggle{
+	background-color: white !important;
+}
+
+li a{
+	background-color: white;
+	color: black !important;
+	font-family: "Cormorant Garamond", Serif;
+	font-size: 150%;
+	text-align: center;
+	padding:0;
+}
+.portfolio-carousel .img-responsive, .main-slider .slick-slide {
+	max-height: 550px;
+}
+.page-header {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+}
+
+.navbar-brand {
+	background-color: white;
+	color: black !important;
+	font-family: "Cormorant Garamond", Serif;
+	font-size: 250%;
+	text-align: center;
+	border:none;
+/*	border-right: 1px solid black;
+	border-left: 1px solid black;*/
+}
+
+.active a {
+	background-color: #D3D3D3 !important;
+}
+a:hover {
+	background-color: #D3D3D3 !important;
+}
+button:hover {
+	background-color: #D3D3D3 !important;
+	color:black
+}
+/*Top of Drop down menu, overrides black */
+#navbar {
+	background-color: white;
+}
+nav {
+	background-color: white !important;
+	border:none !important;
+}
+
+/* centers the nav */
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+.navbar-brand:hover {
+	background-color: white!important;
+}
+
+.form-control{
+	width:80%;
+}
+
+.navbar-header button {
+	background-color: #D3D3D3 !important;
+	border: none !important;
+}
+#logo {
+	border: none;
+	margin-left: -15px!important;
+	margin-top: -15px;
+	padding: 0!important;
+}
+#logo:hover {
+	background-color: #D3D3D3!important;
+}
+.container h1 {
+	text-align:center;
+}
+.navbar {
+	border-bottom: 1px solid black;
+}
+
+#about-page {
+    padding-top:60px ;
+}
+ /* Moves arrows overtop of the images. (enable them in JS)
+.slick-prev {
+    left: 25px;
+    z-index: 1;
+}
+.slick-next {
+    right: 25px;
+}
+.slick-prev:before, .slick-next:before {
+   color: #000;
+}
+*/
+.formErrors {
+    color: red;
+    display: none;
+}
+.form-group {
+    margin: 2px;
+}
+#submitContact {
+    margin-top: 5px!important;
+}
+.slick-slide {
+	margin: 0 5px;
+	outline:none;
+	box-shadow: 10px 0 8px -8px black;
+}
+
+#about-page p {
+	text-align: center;
+}
+.related {
+	margin-bottom:10px;
+}
+.portfolio_video {
+	max-height:550px;
+	padding-top: 20px;
+	padding-bottom:20px;
+}
+
+@media screen and (min-width: 480px) {
+	#index_page {
+		padding-top:80px;
+	}
+}
+@media screen and (max-width: 479px) {
+	#index_page {
+	}
+}
+./*row {
+	padding-bottom: 20px;
+}*/
+hr {
+	padding-bottom: 20px;
+	color:#ccc;
+}
+.related {
+	padding-top: 40px;
+}
+
+
+
